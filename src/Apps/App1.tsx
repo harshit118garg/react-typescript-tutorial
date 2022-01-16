@@ -1,12 +1,11 @@
-import "./App.css";
-import { Greet } from "./components/Greet";
-import Heading from "./components/Heading";
-import Oscar from "./components/Oscar";
-import Person from "./components/Person";
-import PersonList from "./components/PersonList";
-import Status from "./components/Status";
+import { Greet } from "../components/Greet";
+import Heading from "../components/Heading";
+import Oscar from "../components/Oscar";
+import Person from "../components/Person";
+import PersonList from "../components/PersonList";
+import Status from "../components/Status";
 
-function App() {
+function App1() {
   const PersonName = {
     fName: "Bruce",
     lName: "Wayne",
@@ -53,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
