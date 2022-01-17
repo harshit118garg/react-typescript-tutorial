@@ -6,10 +6,11 @@ import App1 from "./Apps/App1";
 import App2 from "./Apps/App2";
 import App3 from "./Apps/App3";
 import App4 from "./Apps/App4";
+import App5 from "./Apps/App5";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App4 />
+    <App5 />
   </React.StrictMode>,
   document.getElementById("root")
 );
