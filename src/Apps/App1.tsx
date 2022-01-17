@@ -5,29 +5,13 @@ import Person from "../components/Person";
 import PersonList from "../components/PersonList";
 import Status from "../components/Status";
 
+import { nameList } from "../components/PersonList.type";
+
 function App1() {
   const PersonName = {
     fName: "Bruce",
     lName: "Wayne",
   };
-
-  const nameList = [
-    {
-      fName: "Steve",
-      lName: "Rogers",
-      identity: "Captain America",
-    },
-    {
-      fName: "Clint",
-      lName: "Barton",
-      identity: "Hawkeye",
-    },
-    {
-      fName: "Tony",
-      lName: "Stark",
-      identity: "Iron Man",
-    },
-  ];
 
   return (
     <div className="App">
@@ -53,3 +37,12 @@ function App1() {
 }
 
 export default App1;
+
+/*
+  TIPS
+========
+
+1. always destructure the props 
+2. it is better to create a separate file for the Prop-types, which can be exported and imported in the required component  
+3. for similar types create a separate variable and use it when ever required.
+*/
